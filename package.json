@@ -21,9 +21,8 @@
   },
   "homepage": "https://github.com/yasinskislava/goit-js-hw-13#readme",
   "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
     "parcel": "^2.10.3"
-  },
-  "dependencies": {
-    "pnotify": "^5.2.0"
   }
 }
