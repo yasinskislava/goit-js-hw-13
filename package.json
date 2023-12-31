@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-start": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasinskislava/goit-js-hw-13.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasinskislava/goit-js-hw-13/issues"
+  },
+  "homepage": "https://github.com/yasinskislava/goit-js-hw-13#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "pnotify": "^5.2.0"
+  }
+}
