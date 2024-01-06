@@ -1,4 +1,4 @@
-import {  alert, defaultModules } from '../node_modules/@pnotify/core/dist/PNotify.js';
+import {  success, defaultModules } from '../node_modules/@pnotify/core/dist/PNotify.js';
 import * as PNotifyMobile from '../node_modules/@pnotify/mobile/dist/PNotifyMobile.js';
  
 defaultModules.set(PNotifyMobile, {});
@@ -10,8 +10,8 @@ const dataInputs = document.querySelectorAll("input");
 let data = {};
 formBtn.addEventListener("submit", (e) => {
     e.preventDefault();
-    alert({ text: "Форма успішно відправлена", delay: 1000 });
-    backdrop.style.display = "none";
+    success({ text: "Форма успішно відправлена", delay: 1000 });
+    backdrop.classList.remove("visible");
     data = {
         name: dataInputs[0].textContent,
         email: dataInputs[1].textContent,
@@ -21,7 +21,7 @@ formBtn.addEventListener("submit", (e) => {
 });
 sendBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    backdrop.style.display = "flex";
+    backdrop.classList.add("visible");
 });
 
 export { data };

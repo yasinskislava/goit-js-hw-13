@@ -23,6 +23,7 @@
     pointer-events: none;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 form {
     pointer-events: all;
@@ -54,4 +55,8 @@ input {
 
 #last-input {
     height: 40px;
+}
+
+.backdrop.visible {
+    display: flex;
 }
