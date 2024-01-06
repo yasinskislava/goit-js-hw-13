@@ -2,11 +2,10 @@
   "name": "goit-js-hw-13",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pre-start": "parcel build src/index.html",
+    "prestart": "parcel build src/index.html",
     "start": "parcel src/index.html"
   },
   "repository": {
